@@ -11,10 +11,12 @@ var styles = ReactNative.StyleSheet.create({
   }
 });
 
-var PropertyFinderApp extends React.Component {
+class PropertyFinderApp extends React.Component {
   render() {
     return React.createElement(ReactNative.Text, {style: styles.text}, "Hello World!");
   }
 }
 
-ReactNative.AppRegistry.registerComponent('PropertyFinder', function() { return PropertyFinderApp});
+
+
+ReactNative.AppRegistry.registerComponent('PropertyFinder', function() { return PropertyFinderApp });
